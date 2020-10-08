@@ -1,0 +1,16 @@
+﻿<Window x:Class="Fibonacci_Sequence_Calculation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fibonacci_Sequence_Calculation"
+        mc:Ignorable="d"
+        Title="Fibonacci Sequence Calculation" Height="200" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Icon="icon.ico">
+    <Grid>
+        <TextBox x:Name="N" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Margin="90,35,234,0" FontSize="20" VerticalContentAlignment="Center" MaxLength="2"/>
+        <Button x:Name="CALC" Content="CALCULATE" Height="40" VerticalAlignment="Top" Margin="183,35,32,0" FontSize="20" IsDefault="True" Click="CALC_Click"/>
+        <Label Content="N:" Height="40" Margin="32,35,317,0" VerticalAlignment="Top" FontSize="20" VerticalContentAlignment="Center"/>
+        <Label x:Name="RESULT" Content="HERE IS THE RESULT!" Margin="32,0,32,26" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Height="35" VerticalAlignment="Bottom" FontSize="20"/>
+
+    </Grid>
+</Window>
